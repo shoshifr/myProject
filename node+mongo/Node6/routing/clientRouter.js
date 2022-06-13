@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.post("/AddClient", contollerClient.add);
 //router.put("/:id/updateData", contollerClient.update); 
-
+//shoshi
 //router.get("/GetData", contollerItem.Get);
 router.get("/:id/GetData", contollerClient.GetById);
 //router.get("/:id/GetDataP", contollerItem.GetByPrice);
